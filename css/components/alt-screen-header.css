@@ -1,0 +1,35 @@
+.alt-header{
+display: flex;
+justify-content:center;
+align-items: center;
+padding: var(--horizontal-space);
+margin-bottom:15px;
+}
+.alt-header_column{
+    width:33%;
+
+}
+.alt-header_title{
+    font-size:28px;
+    font-weight: 600;
+    
+}
+.alt-header_column{
+    margin-top:15px;
+}
+.alt-header_column:first-child{
+    margin-right:auto;
+}
+.alt-header_column:nth-child(2){
+    text-align: center;
+}
+.alt-header_column:last-child{
+    margin-left:auto;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.alt-header_column span:last-child{
+    margin-left:30px;
+}
+

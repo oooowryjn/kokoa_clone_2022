@@ -1,0 +1,15 @@
+.redplus{
+    background-color: tomato;
+    width:5px;
+    height:5px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:tomato;
+    position:relative;
+    left:70px;
+    bottom:20px;
+    font-size:0px;
+
+}
